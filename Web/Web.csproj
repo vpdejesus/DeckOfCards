@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\cards\1.png" />
+    <None Include="wwwroot\images\cards\10.png" />
+    <None Include="wwwroot\images\cards\11.png" />
+    <None Include="wwwroot\images\cards\12.png" />
+    <None Include="wwwroot\images\cards\13.png" />
+    <None Include="wwwroot\images\cards\14.png" />
+    <None Include="wwwroot\images\cards\15.png" />
+    <None Include="wwwroot\images\cards\16.png" />
+    <None Include="wwwroot\images\cards\17.png" />
+    <None Include="wwwroot\images\cards\18.png" />
+    <None Include="wwwroot\images\cards\19.png" />
+    <None Include="wwwroot\images\cards\2.png" />
+    <None Include="wwwroot\images\cards\20.png" />
+    <None Include="wwwroot\images\cards\21.png" />
+    <None Include="wwwroot\images\cards\22.png" />
+    <None Include="wwwroot\images\cards\23.png" />
+    <None Include="wwwroot\images\cards\24.png" />
+    <None Include="wwwroot\images\cards\25.png" />
+    <None Include="wwwroot\images\cards\26.png" />
+    <None Include="wwwroot\images\cards\27.png" />
+    <None Include="wwwroot\images\cards\28.png" />
+    <None Include="wwwroot\images\cards\29.png" />
+    <None Include="wwwroot\images\cards\3.png" />
+    <None Include="wwwroot\images\cards\30.png" />
+    <None Include="wwwroot\images\cards\31.png" />
+    <None Include="wwwroot\images\cards\32.png" />
+    <None Include="wwwroot\images\cards\33.png" />
+    <None Include="wwwroot\images\cards\34.png" />
+    <None Include="wwwroot\images\cards\35.png" />
+    <None Include="wwwroot\images\cards\36.png" />
+    <None Include="wwwroot\images\cards\37.png" />
+    <None Include="wwwroot\images\cards\38.png" />
+    <None Include="wwwroot\images\cards\39.png" />
+    <None Include="wwwroot\images\cards\4.png" />
+    <None Include="wwwroot\images\cards\40.png" />
+    <None Include="wwwroot\images\cards\41.png" />
+    <None Include="wwwroot\images\cards\42.png" />
+    <None Include="wwwroot\images\cards\43.png" />
+    <None Include="wwwroot\images\cards\44.png" />
+    <None Include="wwwroot\images\cards\45.png" />
+    <None Include="wwwroot\images\cards\46.png" />
+    <None Include="wwwroot\images\cards\47.png" />
+    <None Include="wwwroot\images\cards\48.png" />
+    <None Include="wwwroot\images\cards\49.png" />
+    <None Include="wwwroot\images\cards\5.png" />
+    <None Include="wwwroot\images\cards\50.png" />
+    <None Include="wwwroot\images\cards\51.png" />
+    <None Include="wwwroot\images\cards\52.png" />
+    <None Include="wwwroot\images\cards\6.png" />
+    <None Include="wwwroot\images\cards\7.png" />
+    <None Include="wwwroot\images\cards\8.png" />
+    <None Include="wwwroot\images\cards\9.png" />
+    <None Include="wwwroot\images\home\aces.png" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,41 @@
+﻿@page
+@model CardsModel
+
+@{
+    ViewData["Title"] = "Cards";
+}
+
+<link rel="stylesheet" href="~/css/card.css" />
+
+<div id="buttonholder">
+    <button id="shuffle" name="button" value="Shuffle" class="btn btn-primary">Shuffle</button>
+    <p />
+</div>
+
+<div id="main" class="row">
+    <div id="row">
+        <div id="cardholder" class="column">
+            @{
+                foreach (var item in Model.Cards)
+                {
+                    <img src="@item.ImagePath" alt="Cards" width="76" height="117" hspace="1" />
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        var a = []; // variable to store ImagePath of Cards
+        var cardDeck = cardDeck || {};
+        @{
+            foreach (var item in Model.Cards)
+            {
+                @:a.push(['@item.ImagePath']); // Passing the value of the ImagePath into an array
+            }
+        }
+        cardDeck.dataArray = a;
+    </script>
+    <script src="~/js/card.js"></script>
+}

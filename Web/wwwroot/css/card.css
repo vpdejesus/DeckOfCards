@@ -1,0 +1,29 @@
+﻿#buttonholder {
+    margin-left: 2px;
+}
+
+#cardholder {
+    margin-left: 14px;}
+
+    #cardholder.loading {
+        animation: pulsate infinite alternate .3s;
+    }
+
+img {
+    transition: opacity 1s;
+    white-space: pre-wrap;
+}
+
+#cardholder.loading img {
+    opacity: 0;
+}
+
+@keyframes pulsate {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
