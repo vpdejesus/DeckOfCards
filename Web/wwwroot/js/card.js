@@ -1,10 +1,10 @@
-﻿ (function ($, cardDeck) {
+﻿(function ($, cardDeck) {
     $(document).ready(function () {
         $("#shuffle").click(function () {
-             $("#cardholder").empty(); // clear the contents of a "display" div tag                  
+            $("#cardholder").empty(); // clear the contents of a "display" div tag                  
 
             var imagepath = cardDeck.dataArray;
-            shuffle(imagepath);                      
+            shuffle(imagepath);
 
             for (var i = 0; i < imagepath.length; i++) {
                 $("#cardholder").append(
@@ -13,7 +13,7 @@
             }
         });
     });
- })($, cardDeck)
+})($, cardDeck)
 
 /* A shuffle function for an array */
 function shuffle(o) {

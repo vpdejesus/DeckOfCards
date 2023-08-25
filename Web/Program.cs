@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore;
+﻿using DeckOfCards;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace DeckOfCards
+namespace Web
 {
     public class Program
     {
